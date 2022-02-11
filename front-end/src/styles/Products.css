@@ -1,6 +1,6 @@
 .products {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .products-info {
   text-align: right;
@@ -10,6 +10,6 @@
 }
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
+  grid-gap: 15px;
 }

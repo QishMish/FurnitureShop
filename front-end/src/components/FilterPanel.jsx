@@ -5,8 +5,8 @@ function FilterPanel() {
   return (
     <div className="menu-panel">
       <div className="menu-items">
-        {filterMenu.map((item) => {
-          return <li className="menu-item">{item}</li>;
+        {filterMenu.map((item, index) => {
+          return <li key={index} className="menu-item">{item}</li>;
         })}
       </div>
     </div>

@@ -1,6 +1,25 @@
 .product-item{
-    width: 250px;
-    height: 250px;
-    display: block;
     cursor: pointer;
+    background-color: #ffff;
+}
+.product-item {
+    height: auto !important;
+}
+.image-container img{
+    width: 100%;
+}
+.product-buttom-bar{
+    width: 90%;
+    min-width: 200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    color: rgb(186, 179, 179);
+    font-weight: 40;
+    letter-spacing: 1px;
+}
+.product-buttom-bar span{
+    color: rgb(0, 0, 0);
 }
